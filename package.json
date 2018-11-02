@@ -1,0 +1,23 @@
+{
+  "name": "build-my-tools-express-lll",
+  "version": "1.2.1",
+  "description": "## 安装 ``` npm install build-my-tools-express-lll ``` ## 使用 ``` build-my-tools-express-lll",
+  "main": "www.js",
+  "bin": {
+    "build-my-tools-express-lll": "./www.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "mime-types": "^2.1.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LLL",
+  "license": "ISC"
+}
